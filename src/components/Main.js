@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Intro</h2>
-          <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.</p>
+          <p>Hi! My name is Ryan Reese and I am a full stack web developer.</p>
           {close}
           <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
             <div>
@@ -78,7 +78,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="#" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -92,8 +92,8 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
+              <li><button type="submit" value="Send Message" className="special" />Send Message</li>
+              <li><button type="reset" value="Reset" />Reset</li>
             </ul>
           </form>
           <ul className="icons">
