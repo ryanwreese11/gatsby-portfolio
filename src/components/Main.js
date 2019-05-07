@@ -63,7 +63,7 @@ class Main extends React.Component {
           <span className="image main"><img src={dashboardLight} alt="" /></span>
           <span className="image main"><img src={dashboardDemo} alt="" /></span>
           <span className="image main"><img src={proposalDemo} alt="" /></span>
-          <p>App I personally built. It would be utilized by a solar company to present potential customers the benefits of going solar. There is a knocking portion for the sales rep to use on the doors to submit a customer into the system where it would be passed off to a designer in the office to build the dynamic proposal. Once proposal is completed, sales rep will be notified via text so they can show the customer. The proposal display is dynamic so that the rep and customer can update the system size/price right there live without having to call back into the office and waiting for a designer to update. This will save on time and payroll.</p>
+          <p>App I personally built that won the award of "Best Business Solution" in my cohort at DevMountain. It would be utilized by a solar company to present potential customers the benefits of going solar. There is a knocking portion for the sales rep to use on the doors to submit a customer into the system where it would be passed off to a designer in the office to build the dynamic proposal. Once proposal is completed, sales rep will be notified via text so they can show the customer. The proposal display is dynamic so that the rep and customer can update the system size/price right there live without having to call back into the office and waiting for a designer to update. This will save on time and payroll.</p>
           {close}
         </article>
 
