@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Skills</h2>
-          <p>Hello! My name is Ryan Reese and I am a full stack web developer looking for a new challenge. I am a hard worker that loves to create new products that help overcome issues. I am beyond excited for the road ahead as a Web Developer and the things I will be able to accomplish.</p>
+          <p>Hello! My name is Ryan Reese and I am a web developer looking for a new challenge. I am a hard worker that loves to create new products that help overcome issues. I am beyond excited for the road ahead as a Web Developer and the things I will be able to accomplish.</p>
           {close}
           <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', justifyContent: 'space-around', flexWrap: 'wrap' }}>
             <div>
