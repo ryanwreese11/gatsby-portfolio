@@ -78,7 +78,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#" data-netlify="true">
+          <form name="form 1" method="post" action="#" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -92,8 +92,8 @@ class Main extends React.Component {
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><button type="submit" value="Send Message" className="special" />Send Message</li>
-              <li><button type="reset" value="Reset" />Reset</li>
+              <li><button type="submit" value="Send Message" className="special">SEND MESSAGE</button></li>
+              <li><button type="reset" value="Reset">RESET</button></li>
             </ul>
           </form>
           <ul className="icons">
