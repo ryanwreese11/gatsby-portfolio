@@ -14,7 +14,7 @@ class Main extends React.Component {
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? { display: 'flex' } : { display: 'none' }}>
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Skills</h2>
           <p>Hello! My name is Ryan Reese and I am a full stack web developer looking for a new challenge. I am a hard worker that loves to create new products that help overcome issues. I am beyond excited for the road ahead as a Web Developer and the things I will be able to accomplish.</p>
           {close}
           <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
@@ -68,7 +68,7 @@ class Main extends React.Component {
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
-          <h2 className="major">About</h2>
+          <h2 className="major">About Me</h2>
           <span className="image main"><img src={familyPic} alt="" /></span>
           <p>
             Born in CA, raised in UT. Outside of code, I love the outdoors, especially with my wonderful wife and 3 children. Nothing is better than a weekend at the cabin with the family with no cell phone service. I love almost all things sports, especially soccer as I played from the age of 5 until college with UVU. 
