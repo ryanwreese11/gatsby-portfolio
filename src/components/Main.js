@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import dashboardDemo from '../images/dashboardDemo.png'
 import dashboardLight from '../images/dashboardLight.png'
 import proposalDemo from '../images/proposalDemo.png'
-import familyPic from '../images/familyPic.jpg'
+import familyPic from '../images/familypic.jpg'
 
 class Main extends React.Component {
   render() {
