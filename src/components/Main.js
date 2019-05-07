@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import dashboardDemo from '../images/dashboardDemo.png'
 import dashboardLight from '../images/dashboardLight.png'
 import proposalDemo from '../images/proposalDemo.png'
-import family from '../images/family.jpg'
+import familyPic from '../images/familyPic.jpg'
 
 class Main extends React.Component {
   render() {
@@ -69,7 +69,7 @@ class Main extends React.Component {
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About</h2>
-          <span className="image main"><img src={family} alt="" /></span>
+          <span className="image main"><img src={familyPic} alt="" /></span>
           <p>
             Ryan Reese
           </p>
