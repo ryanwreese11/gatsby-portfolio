@@ -55,7 +55,6 @@ class Main extends React.Component {
               <p>CSS</p>
             </div>
           </div>
-          <div>|Express|Redux|</div>
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
