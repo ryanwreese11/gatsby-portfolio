@@ -15,7 +15,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Intro</h2>
-          <p>Hi! My name is Ryan Reese and I am a full stack web developer.</p>
+          <p>Hello! My name is Ryan Reese and I am a full stack web developer looking for a new challenge. I am a hard worker that loves to create new products that help overcome issues. I am beyond excited for the road ahead as a Web Developer and the things I will be able to accomplish.</p>
           {close}
           <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'center', justifyContent: 'space-between', flexWrap: 'wrap' }}>
             <div>
@@ -55,6 +55,7 @@ class Main extends React.Component {
               <p>CSS</p>
             </div>
           </div>
+          <div>|Express|Redux|</div>
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
@@ -71,25 +72,25 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={familyPic} alt="" /></span>
           <p>
-            Ryan Reese
+            Born in CA, raised in UT. Outside of code, I love the outdoors, especially with my wonderful wife and 3 children. Nothing is better than a weekend at the cabin with the family with no cell phone service. I love almost all things sports, especially soccer as I played from the age of 5 until college with UVU. 
           </p>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <form name="contact" method="post" action="#" data-netlify="true" netlify-honeypot="bot-field">
+          <form name="contact" method="post" action="#" data-netlify="true" >
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input value="contact" type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input value="contact" type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea value="contact" name="message" id="message" rows="4"></textarea>
+              <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li><button type="submit" value="Send Message" className="special">SEND MESSAGE</button></li>
