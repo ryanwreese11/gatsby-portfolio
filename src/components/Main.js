@@ -105,7 +105,7 @@ class Main extends React.Component {
             <li><a href="https://www.linkedin.com/in/ryanwreese" className="icon fa-linkedin"><span className="label">Facebook</span></a></li>
             <li><a href="https://github.com/ryanwreese11" className="icon fa-github"><span className="label">GitHub</span></a></li>
             <li><a href="https://twitter.com/MrReesety" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="https://twitter.com/MrReesety" className="icon fa-envelope"><span className="label">Twitter</span></a></li>
+            <li><a className="icon fa-envelope"></a><span > ryan.reese11@gmail.com</span></li>
           </ul>
           {close}
         </article>
